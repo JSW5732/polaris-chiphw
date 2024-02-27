@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Campus Alert!</title>
+  <link rel="stylesheet" href="styles.css">
   <meta name="Description" content="Boilerplate for polaris chip">
   <base href="/">
 
@@ -24,6 +26,16 @@
 </head>
 
 <body>
+  <div id="alertModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Campus Alert</h2>
+      <p>This is an important message regarding campus safety. Please be aware of the following:</p>
+      <p>There has been a reported incident near the campus. Security personnel are currently investigating the situation. Please remain cautious and avoid the area until further notice.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
   <h1>polaris-chip</h1>
   <!-- this is going to do whatever the tag's defaults are -->
   <polaris-chip title="NeWs" link="https://psu.edu/"></polaris-chip>
@@ -37,12 +49,26 @@
 
 <h1>counterapp</h1>
 <counterapp title="counterapp"></counterapp>
+<section class="counter">
+  <confetti-container id="confetti"></confetti-container>
+  
+      <div class="counter-content"></div>
+        
+        <p>Click + to add to the number and - to subtract.</p>
+          <button class="+btn">+</button>
+          <button class="-btn">-</button>
+          
+    </section>
+  
+  </body>
+  </html>
+  `;
 
   <h1>my-card</h1>
-  <my-card title="Baseball" imageLink="https://www.vargaslawoffice.com/wp-content/uploads/2018/09/Tripping-and-Falling-Versus-Slipping-and-Falling-The-Distinctions-May-Surprise-You.jpg" desc="moving from a higher to a lower level, typically rapidly and without control. learn more?" buttonLink="https://www.youtube.com/watch?v=xvFZjo5PgG0"></my-card>
-  <my-card title="Rugby" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Emoticon_Face_Frown_GE.png/640px-Emoticon_Face_Frown_GE.png" desc="a regretful acknowledgment of an offense or failure. learn more?" buttonLink="https://www.youtube.com/watch?v=xvFZjo5PgG0"></my-card>
-  <my-card title="Football" imageLink="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2019-12/man_with_regret_pixabay_public_domain_0.jpeg.jpg?itok=jyAoHM7B" desc="feel sad, repentant, or disappointed over (something that has happened or been done, especially a loss or missed opportunity). learn more?" buttonLink="https://www.youtube.com/watch?v=xvFZjo5PgG0"></my-card>
-  <my-card title="Hockey" imageLink="https://media.swncdn.com/via/images/2023/05/15/30711/30711-istockgetty-images-plusdamircudic_source_file.jpg" desc="deep regret or guilt for a wrong committed. learn more?" buttonLink="https://www.youtube.com/watch?v=xvFZjo5PgG0"></my-card>
+  <my-card title="details" imageLink="https://www.vargaslawoffice.com/wp-content/uploads/2018/09/Tripping-and-Falling-Versus-Slipping-and-Falling-The-Distinctions-May-Surprise-You.jpg" desc="moving from a higher to a lower level, typically rapidly and without control. learn more?" buttonLink="https://www.youtube.com/watch?v=xvFZjo5PgG0"></my-card>
+  <my-card title="details" imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Emoticon_Face_Frown_GE.png/640px-Emoticon_Face_Frown_GE.png" desc="a regretful acknowledgment of an offense or failure. learn more?" buttonLink="https://www.youtube.com/watch?v=xvFZjo5PgG0"></my-card>
+  <my-card title="details" imageLink="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2019-12/man_with_regret_pixabay_public_domain_0.jpeg.jpg?itok=jyAoHM7B" desc="feel sad, repentant, or disappointed over (something that has happened or been done, especially a loss or missed opportunity). learn more?" buttonLink="https://www.youtube.com/watch?v=xvFZjo5PgG0"></my-card>
+  <my-card title="details" imageLink="https://media.swncdn.com/via/images/2023/05/15/30711/30711-istockgetty-images-plusdamircudic_source_file.jpg" desc="deep regret or guilt for a wrong committed. learn more?" buttonLink="https://www.youtube.com/watch?v=xvFZjo5PgG0"></my-card>
   <my-card></my-card>
 
   <!-- this is what is bringing in the definition for this tag -->
