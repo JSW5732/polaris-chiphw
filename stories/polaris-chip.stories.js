@@ -1,6 +1,7 @@
 import { html } from 'lit';
 import '../src/polaris-chip.js';
 
+
 export default {
   title: 'PolarisChip',
   component: 'polaris-chip',

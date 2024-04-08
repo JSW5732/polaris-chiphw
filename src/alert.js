@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit';
 
-export class Campus Alert extends LitElement {
+export class Campus Alert extends LitElement 
 
     static get tag() {
         return 'campus-alert';
@@ -16,7 +16,7 @@ export class Campus Alert extends LitElement {
         this.time = "time";
       }
 
-      static get styles() {
+      static get styles()
         return css`
 
 
